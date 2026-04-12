@@ -167,9 +167,9 @@ function updateThemeIcon(theme, icon) {
 function initTypingAnimation() {
   const typingElement = document.getElementById("typing-text");
   const texts = [
-    "Full Stack Software Developer",
-    "Problem Solver & Innovator",
-    "Hardworking & Fast Learner",
+    "Backend Engineer",
+    "Distributed Systems Builder",
+    "Concurrency and Performance Focused",
   ];
 
   let currentTextIndex = 0;
@@ -257,23 +257,21 @@ function initProjectsSection() {
     {
       id: 1,
       title: "Amply",
-      subheading: "Kriti Inter Hostel Tech competition 2025",
+      subheading: "Decentralized Carbon Credit Marketplace (Jan 2025 - Feb 2025)",
       description:
-        "A blockchain-based carbon credit trading platform. Features ERC-20 tokenization, ZK-SNARKs privacy, IoT smart meter integration, and decentralized trading of carbon credits.",
+        "Designed a decentralized carbon credit marketplace with smart-contract powered transaction flow, handling 1500+ secure transactions with optimized settlement and strong user-level security.",
       image:
         "https://github.com/deepakkumartripathi119/Amply/blob/main/images/dashboard.png?raw=true",
       technologies: [
-        "React",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "PassportJS",
-        "Google OAuth",
-        "2FA By Twilio",
-        "Metamask Wallet Integration",
+        "Smart Contracts",
+        "Distributed Transactions",
+        "Blockchain",
+        "Latency Optimization",
+        "2FA",
+        "Security Engineering",
         "Solidity",
         "Ethereum",
-        "ZK-SNARKs",
+        "Web3",
       ],
       liveDemo: "https://amply-1.onrender.com/",
       github: "https://github.com/deepakkumartripathi119/Amply",
@@ -348,6 +346,28 @@ function initProjectsSection() {
       liveDemo: "https://oopsiq.onrender.com/",
       github: "https://github.com/deepakkumartripathi119/OopsIQ",
       category: "AI/Web",
+    },
+    {
+      id: 6,
+      title: "Custom Redis Server",
+      subheading: "Personal Project (Feb 2026 - Mar 2026)",
+      description:
+        "Built an in-memory key-value store in Java handling 1000+ concurrent requests with socket I/O and thread pooling, with replication and sharding architecture plus RDB/AOF persistence and Pub/Sub messaging.",
+      image:
+        "https://opengraph.githubassets.com/1/deepakkumartripathi119/Redis",
+      technologies: [
+        "Java",
+        "Socket I/O",
+        "Thread Pooling",
+        "Concurrency",
+        "Replication",
+        "Sharding",
+        "RDB Persistence",
+        "Pub/Sub",
+      ],
+      liveDemo: "https://github.com/deepakkumartripathi119/Redis",
+      github: "https://github.com/deepakkumartripathi119/Redis",
+      category: "Analytics",
     },
     {
       id: 7,
